@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"stepik_golang/concurency"
+	forstatement "stepik_golang/for_statement"
 	ifstatement "stepik_golang/if_statement"
 )
 
@@ -12,4 +13,6 @@ func main() {
 	fmt.Println(<-thischan)
 
 	fmt.Println(ifstatement.ReturnData(5))
+
+	forstatement.ThisFor(5)
 }
