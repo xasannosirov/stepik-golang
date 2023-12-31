@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// var kalit so'zidan unumli foydalanish yodamida 
+// var kalit so'zidan unumli foydalanish yordamida 
 // bir nechta o'garuvchilarni e'lon qilish
 func main() {
 	var (

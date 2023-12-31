@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// 0 dan 10 gacga sonlarni yig'indisini topishni 1-usuli
+// 0 dan 10 gacga sonlarni yig'indisini topish
 func for1() {
 	sum := 0
 	for i := 1; i < 10; i++ {

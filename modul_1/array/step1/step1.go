@@ -8,7 +8,7 @@ func arrayDeclered() {
 	fmt.Println(a) // [0 0 0]
 
 	b := [3]int{1, 2, 3}
-	c := [...]int{1, 2, 3} //... qo'yilsa uzunligini o'zi belgilarydi
+	c := [...]int{1, 2, 3} //... qo'yilsa uzunligini go o'zi belgilarydi
 	d := [3]int{1: 12} //1-indeksga qiymat sifatida 12 ni
 	//  yozadi va uzunligi n+1 bo'ladi
 

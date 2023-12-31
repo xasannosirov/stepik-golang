@@ -19,6 +19,6 @@ const (
 )
 
 func main() {
-	fmt.Println(A, B, C, D) // Вывод: 45 45 3.3 3.3
+	fmt.Println(A, B, C, D) // 45 45 3.3 3.3
 	fmt.Println(a,b)
 }
