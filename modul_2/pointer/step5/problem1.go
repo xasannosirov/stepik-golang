@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// ikkita o'zgaruvchini pointeri orqali 
+// qiymatiga murojat qilib yodamida ko'paytiradi
 func test(x1 *int, x2 *int) {
 	fmt.Println(*x1 * *x2)
 }

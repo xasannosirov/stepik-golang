@@ -8,6 +8,7 @@ func main() {
 	fmt.Println(name) // Tom Simpson
 }
 
+// ikkita int va string ma'lumotni qo'shib qaytaradi
 func add(x, y int, firstName, lastName string) (int, string) {
 	var z int = x + y
 	var fullName = firstName + " " + lastName

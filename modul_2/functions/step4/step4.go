@@ -9,6 +9,7 @@ func main() {
 	fmt.Println(b)
 }
 
+// ikki sonni qo'shib natijasini qaytaradi
 func add(x, y int) int {
 	return x + y
 }

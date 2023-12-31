@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// ikkita o'zgaruvchini qiymatini lamashtirib qo'yadi
 func test(x1 *int, x2 *int) {
 	tempx := *x1
 	tempy := *x2

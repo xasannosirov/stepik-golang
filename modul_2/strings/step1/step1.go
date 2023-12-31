@@ -8,10 +8,10 @@ func main() {
 
 // stringlar ustida amallar bajarish
 func ExampleString() {
-	var s string = "Это строка"
-	fmt.Printf("Длина строки: %d байт\n", len(s))
-	fmt.Printf("Напечатаем только второе слово в кавычках: \"%v\"\n", s[7:])
-	s = s + " Новая строка"
+	var s string = "This is string"
+	fmt.Printf("String uzunlig: %d bayt\n", len(s))
+	fmt.Printf("This is second word: \"%v\"\n", s[7:])
+	s = s + "New string"
 	fmt.Printf("%v\n", s)
 	for _, b := range s {
 		fmt.Printf("%v ", b)

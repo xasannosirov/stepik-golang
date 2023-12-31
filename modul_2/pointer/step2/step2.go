@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// o'zgaruvchini qiymatini 1 ga o'zgartirib qo'yadi
+// bu funksiya o'zgaruvchini qiymatini 1 ga o'zgartirib qo'yadi
 func one(xPtr *int) {
 	*xPtr = 1
 }

@@ -9,7 +9,7 @@ func main() {
 }
 func divide(x, y float64) float64 {
 	if y == 0 {
-		panic("division by zero!")
+		panic("division by zero!") //dasturni to'xtatishda ishlatiladi
 	}
 	return x / y
 }

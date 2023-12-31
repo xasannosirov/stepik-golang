@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+// struct yaratish
 type Teacher struct {
 	LastName     string
 	FirstName    string
@@ -10,6 +11,7 @@ type Teacher struct {
 	PhoneNumbers []string
 }
 
+// method yaratish
 func addTwoAge(t *Teacher) int {
 	return t.Age + 2
 } 
@@ -31,6 +33,7 @@ func (t *Teacher) PhoneNumber() string {
 }
 
 func main() {
+	// struct obyektiga malumotlar beib yaratish
 	tech := Teacher{
 		FirstName:    "Xasan",
 		LastName:     "Nosirov",
