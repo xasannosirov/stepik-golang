@@ -2,6 +2,11 @@ package main
 
 import "fmt"
 
+/*
+done channeldan ma'lumot kelmaguncha arguments channeldan kelgan ma'lumotlarni
+o'qib ularni yig'indisini hosoblaydi, keyin esa ularni c channelg yozib qaytarib yuboradi
+*/ 
+
 func calculator(argements <-chan int, done <-chan struct{}) <-chan int {
 	c := make(chan int)
 	sum := 0
