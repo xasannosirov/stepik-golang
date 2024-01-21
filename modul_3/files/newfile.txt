@@ -1,2 +1,0 @@
-this is file data1
-this is file data2
