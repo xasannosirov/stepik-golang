@@ -1,8 +1,0 @@
-1.2  step-1
-
-Go dasturlash tili Google tomonidan ishlab chiqarilgan compiled 
-til hisoblanadi. Go tilini ustida 2007-yilda ish boshlangan.
-Bu til 2009-yil 10-nayabrda e'lon qilingan. Uning 1.0
-versiyasi 2012-yil mart oyida chiqarilgan.
-Go tilining mualliflari Robert Griesemer, Rob Pike, and Ken Thompson. 
-Loyihaning rasmiy sayti https://golang.org 
